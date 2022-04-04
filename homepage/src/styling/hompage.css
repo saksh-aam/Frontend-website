@@ -1,0 +1,64 @@
+.homeapp{
+    display: block;
+    height:80vh;
+    top: 0%;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    opacity: 0.6;
+    z-index: -1;
+}
+.homediv{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+}
+.homesearch::placeholder{
+    color: black;
+}
+.homesubheading{
+    font-weight:600;
+    font-size: 1rem;
+    margin-top: -1%;
+}
+.mainselect{
+    position: absolute;   
+    width: 80%;
+    left: 20%;
+    bottom: -5%;
+}
+.flexselect{
+    position: absolute;
+    bottom: 00%;
+    width:70%;
+    /* left: 15%; */
+    height:55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+.icons{
+    padding-top:5px;
+}
+.innerflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0b5ed7;
+    border: 1px solid black;
+    width:20%;
+    height:100%
+}
+.innerspan{
+    word-wrap: break-word;
+    padding-bottom: 2px;
+    color:black;
+}
