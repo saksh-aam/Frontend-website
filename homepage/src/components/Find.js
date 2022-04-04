@@ -5,8 +5,8 @@ const Find = () => {
   return (
       <div className='findapp'>
           <div className='outer'>
-              <h1 className='findheading'>Find the Best Businesses in Town</h1>
-              <h4 className='findsubheading'>Famous Shops</h4>
+              <h1 className='hheading'>Find the Best Businesses in Town</h1>
+              <h4 className='subheading'>Famous Shops</h4>
         <div className='outerbox'>
           <div className='flexstore'>
             <div className='cont'>

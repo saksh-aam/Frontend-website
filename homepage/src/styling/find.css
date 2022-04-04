@@ -1,13 +1,13 @@
 .findapp{
     display: block;
     background-color: rgba(242, 235, 253, 0.93);
-    height: fit-content;
+    height: 110vh;
     
 }
-.findsubheading{
+.subheading{
     margin-top: -1%;
 }
-.findsubheading::after{
+.subheading::after{
     content:"View more";
     color:blue;
     text-decoration: underline;
