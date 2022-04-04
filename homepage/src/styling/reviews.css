@@ -1,9 +1,10 @@
 .reviewapp{
-    height: 90vh;
+    height: fit-content;
     font-size: 1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 5%;
 }
 .subheading{
     font-size: 0.7rem;

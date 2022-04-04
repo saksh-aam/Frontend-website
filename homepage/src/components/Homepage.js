@@ -1,8 +1,8 @@
 import React from "react";
 import "../styling/hompage.css";
 import Navbar from "./NavBar";
-import bg from "../images/1.jpg";
-import { AiOutlineSearch, AiFillShopping } from "react-icons/ai";
+import bg from "../images/4.jpg";
+import { AiFillShopping } from "react-icons/ai";
 import {
   MdMoreHoriz,
   MdHomeWork,
@@ -22,9 +22,9 @@ const Homepage = () => {
           <h3 className="homesubheading">
             Check Ratings, Read Reviews &#38; Buy
           </h3>
-          <input className="homesearch" placeholer="What are you looking for" />
+          <input type="text"className="homesearch" placeholder="What are you looking for" />
 
-          <input className="homesearch" placeholer="Select Category" />
+          <input className="homesearch" placeholder="Select Category" />
           <button className="btn">Search</button>
         </div>
         <div className="mainselect">
